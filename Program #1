@@ -11,3 +11,5 @@ def open_gui():
 
 if __name__ == "__main__":  
     open_gui()
+
+#Jadon Anderstrom, 11/12/2024, "Favorite saying".
