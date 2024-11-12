@@ -1,0 +1,15 @@
+import tkinter as tk  
+
+def open_gui():  
+    window = tk.Tk()  
+    window.title("Quote Display")  
+
+    # Label with the quote and author text  
+    tk.Label(window, text="Do one thing every day that scares you.\n- Eleanor Roosevelt", padx=20, pady=20, font=("Arial", 14), justify="center").pack()  
+
+    window.mainloop()  
+
+if __name__ == "__main__":  
+    open_gui()
+
+#Jadon Anderstrom, 11/12/2024, "Favorite saying".

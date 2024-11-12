@@ -1,0 +1,26 @@
+import tkinter as tk  
+from tkinter import messagebox  
+
+def show_info():  
+    messagebox.showinfo("Information", "Name: Jadon Anderstrom\nAddress: 1188 42nd St, Hudson, WI")  
+
+def quit_app():  
+    root.quit()
+
+root = tk.Tk()  
+root.title("User Info")
+
+label = tk.Label(root, text="User Information", font=("Helvetica", 16))  
+label.pack() 
+
+# Create Info button  
+show_info_button = tk.Button(root, text="Show Info", command=show_info)  
+show_info_button.pack()
+
+# Quit button  
+quit_button = tk.Button(root, text="quit", command=quit_app)  
+quit_button.pack()  
+
+root.mainloop() 
+
+#Jadon Anderstrom, 11/12/2024, "GUI".
